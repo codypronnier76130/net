@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {}
+    "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
+    "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
         "projectName": "GestionInventaireWebApp",
-        "projectPath": "C:\\Users\\Utilisateur\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+        "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
+        "outputPath": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
