@@ -7,5 +7,6 @@ namespace GestionInventaireWebApp.Models.BDD
 {
     public class Utilisateur
     {
+
     }
 }
