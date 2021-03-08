@@ -9,7 +9,7 @@ namespace GestionInventaireWebApp.Models.BDD
     {
         public int Id { get; set; }
         public string Email { get; set; }
-        private string Password { get; set; }
+        public string Password { get; set; }
         public string Name { get; set; }
 
         public ICollection<Stock> Stocks { get; set; }

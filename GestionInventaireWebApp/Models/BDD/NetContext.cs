@@ -24,7 +24,7 @@ namespace GestionInventaireWebApp.Models.BDD
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<OrderArticle>()
-                .HasKey(o => new { o.OrderId, o.ArticleId });
+                .HasKey(o => new { o.ArticleId, o.OrderId });
 
         }
     }
