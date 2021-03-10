@@ -2257,6 +2257,25 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "GestionInventaireWebApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.3",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2"
+        },
+        "compile": {
+          "bin/placeholder/GestionInventaireWebApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionInventaireWebApp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -7666,10 +7685,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "GestionInventaireWebApp/1.0.0": {
+      "type": "project",
+      "path": "../GestionInventaireWebApp/GestionInventaireWebApp.csproj",
+      "msbuildProject": "../GestionInventaireWebApp/GestionInventaireWebApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "GestionInventaireWebApp >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.4",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.3",
@@ -7685,11 +7710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
       "projectName": "NetAPI",
-      "projectPath": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+      "projectPath": "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
       "packagesPath": "C:\\Users\\Aspha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\obj\\",
+      "outputPath": "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aspha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7705,7 +7730,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
+              "projectPath": "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
