@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GestionInventaireWebApp.Models.BDD
+namespace NetAPI.Models
 {
     public class NetContext : DbContext
     {
@@ -18,7 +18,7 @@ namespace GestionInventaireWebApp.Models.BDD
         public DbSet<OrderArticle> OrderArticles { get; set; }
         public DbSet<Provider> Providers{ get; set; }
         public DbSet<Stock> Stocks { get; set; }
-        public DbSet<Type> Types { get; set; }
+        public DbSet<Categorie> Categories { get; set; }
         public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

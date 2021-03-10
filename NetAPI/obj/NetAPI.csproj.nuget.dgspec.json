@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {}
+    "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {
+    "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
         "projectName": "NetAPI",
-        "projectPath": "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+        "projectPath": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
         "packagesPath": "C:\\Users\\Aspha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aspha\\source\\repos\\codypronnier76130\\net\\NetAPI\\obj\\",
+        "outputPath": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aspha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,33 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

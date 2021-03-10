@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GestionInventaireWebApp.Models.BDD
+namespace NetAPI.Models
 {
-    public class Type
+    public class Categorie
     {
         public int Id { get; set; }
         public string Name { get; set; }

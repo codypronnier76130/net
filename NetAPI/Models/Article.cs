@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
-namespace GestionInventaireWebApp.Models.BDD
+namespace NetAPI.Models
 {
     public class Article
     {
@@ -13,7 +12,7 @@ namespace GestionInventaireWebApp.Models.BDD
         public int BuyPrice { get; set; }
         public int SellPrice { get; set; }
         public Provider Provider { get; set; }
-        public Type Type { get; set; }
+        public Categorie Categorie { get; set; }
         public ICollection<OrderArticle> OrderArticles { get; set; }
         public Stock Stock { get; set; }
         public Admin Admin { get; set; }

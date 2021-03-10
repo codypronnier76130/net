@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GestionInventaireWebApp.Models.BDD
+namespace NetAPI.Models
 {
     public class Admin
     {
@@ -16,7 +16,7 @@ namespace GestionInventaireWebApp.Models.BDD
         public ICollection<User> Users { get; set; }
         public ICollection<Provider> Providers { get; set; }
         public ICollection<Article> Articles { get; set; }
-        public ICollection<Type> Types { get; set; }
+        public ICollection<Categorie> Categories { get; set; }
         public ICollection<Order> Orders { get; set; }
     }
 }
