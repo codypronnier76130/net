@@ -45,11 +45,6 @@ namespace GestionInventaireWinForms
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -207,62 +202,11 @@ namespace GestionInventaireWinForms
             this.label2.TabIndex = 32;
             this.label2.Text = "Quantité";
             // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(607, 47);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(106, 36);
-            this.button6.TabIndex = 33;
-            this.button6.Text = "Remplir";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(607, 90);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(106, 36);
-            this.button7.TabIndex = 34;
-            this.button7.Text = "Remplir";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(607, 132);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(106, 36);
-            this.button8.TabIndex = 35;
-            this.button8.Text = "Remplir";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(607, 174);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(106, 36);
-            this.button9.TabIndex = 36;
-            this.button9.Text = "Remplir";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(607, 216);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(106, 36);
-            this.button10.TabIndex = 37;
-            this.button10.Text = "Remplir";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
             // Inventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 529);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -303,10 +247,5 @@ namespace GestionInventaireWinForms
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
     }
 }

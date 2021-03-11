@@ -442,6 +442,11 @@ namespace GestionInventaireWinForms
             }
         }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Inventory Inventory = new Inventory();
+            Inventory.Show();
+        }
     }
 }
 

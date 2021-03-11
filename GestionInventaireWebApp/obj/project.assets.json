@@ -7471,23 +7471,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alexv\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\paulf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexv\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
       "projectName": "GestionInventaireWebApp",
-      "projectPath": "C:\\Users\\alexv\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
-      "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexv\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
+      "projectPath": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+      "packagesPath": "C:\\Users\\paulf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\paulf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

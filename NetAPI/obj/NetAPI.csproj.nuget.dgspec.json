@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {}
+    "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\NetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
+    "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
         "projectName": "GestionInventaireWebApp",
-        "projectPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
-        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
+        "projectPath": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+        "packagesPath": "C:\\Users\\paulf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\paulf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,24 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {
+    "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\NetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\NetAPI.csproj",
         "projectName": "NetAPI",
-        "projectPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
-        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\obj\\",
+        "projectPath": "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\NetAPI.csproj",
+        "packagesPath": "C:\\Users\\paulf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\paulf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,8 +109,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj"
+              "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
+                "projectPath": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj"
               }
             }
           }
@@ -182,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -20,3 +20,7 @@ C:\Users\alexv\Source\Repos\codypronnier76130\net\GestionInventaireWinForms\obj\
 C:\Users\alexv\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.Form2.resources
 C:\Users\alexv\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.Inventory.resources
 C:\Users\alexv\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms._Form1.resources
+C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.Form1.resources
+C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.Form2.resources
+C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.Inventory.resources
+C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms._Form1.resources
