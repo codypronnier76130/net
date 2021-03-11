@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GestionInventaireWebApp.Models.BDD
 {
-    public class Type
+    public class Categorie
     {
         public int Id { get; set; }
         public string Name { get; set; }

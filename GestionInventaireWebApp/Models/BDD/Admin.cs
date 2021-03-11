@@ -16,7 +16,7 @@ namespace GestionInventaireWebApp.Models.BDD
         public ICollection<User> Users { get; set; }
         public ICollection<Provider> Providers { get; set; }
         public ICollection<Article> Articles { get; set; }
-        public ICollection<Type> Types { get; set; }
+        public ICollection<Categorie> Categories { get; set; }
         public ICollection<Order> Orders { get; set; }
     }
 }

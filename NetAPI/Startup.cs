@@ -5,7 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
-using NetAPI.Models;
+using GestionInventaireWebApp.Models.BDD;
+
 
 namespace NetAPI
 {
@@ -21,8 +22,9 @@ namespace NetAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<NetContext>(opt =>
-                                                 opt.UseInMemoryDatabase("NetContext"));
+            services.AddDbContext<NetContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("NetContext")));
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
