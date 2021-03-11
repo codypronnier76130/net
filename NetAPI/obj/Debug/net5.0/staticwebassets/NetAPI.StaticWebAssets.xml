@@ -1,1 +1,3 @@
-﻿<StaticWebAssets Version="1.0" />
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/GestionInventaireWebApp" Path="C:\Users\alexv\Source\Repos\codypronnier76130\net\GestionInventaireWebApp\wwwroot\" />
+</StaticWebAssets>

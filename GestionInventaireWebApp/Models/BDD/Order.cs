@@ -10,7 +10,6 @@ namespace GestionInventaireWebApp.Models.BDD
         public int Id { get; set; }
         public DateTime OrderDate { get; set; }
         public int OrderQuantity { get; set; } 
-
         public bool IsActive { get; set; }
         public User User { get; set; }
         public ICollection<OrderArticle> OrderArticles { get; set; }

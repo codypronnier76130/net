@@ -7477,11 +7477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\alexv\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
       "projectName": "GestionInventaireWebApp",
-      "projectPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+      "projectPath": "C:\\Users\\alexv\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
       "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
+      "outputPath": "C:\\Users\\alexv\\Source\\Repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
