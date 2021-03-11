@@ -53,7 +53,7 @@ namespace GestionInventaireWebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,LastName,FirstName,Email,Password,Address")] User user)
+        public async Task<IActionResult> Create([Bind("Id,LastName,FirstName,Email,Password,Address, AdminID")] User user)
         {
             if (ModelState.IsValid)
             {

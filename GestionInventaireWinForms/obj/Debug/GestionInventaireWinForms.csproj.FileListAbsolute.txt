@@ -7,3 +7,12 @@ C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaire
 C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.csproj.CoreCompileInputs.cache
 C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.exe
 C:\Users\paulf\Desktop\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.pdb
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\bin\Debug\GestionInventaireWinForms.exe.config
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\bin\Debug\GestionInventaireWinForms.exe
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\bin\Debug\GestionInventaireWinForms.pdb
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.csprojAssemblyReference.cache
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.Properties.Resources.resources
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.csproj.GenerateResource.cache
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.exe
+C:\Users\Utilisateur\source\repos\codypronnier76130\net\GestionInventaireWinForms\obj\Debug\GestionInventaireWinForms.pdb

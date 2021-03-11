@@ -5,6 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Views\Admins\Create.cshtml" />
+    <None Include="Views\Admins\Delete.cshtml" />
+    <None Include="Views\Admins\Details.cshtml" />
+    <None Include="Views\Admins\Edit.cshtml" />
+    <None Include="Views\Admins\Index.cshtml" />
+    <None Include="Views\Users\Create.cshtml" />
+    <None Include="Views\Users\Delete.cshtml" />
+    <None Include="Views\Users\Details.cshtml" />
+    <None Include="Views\Users\Edit.cshtml" />
+    <None Include="Views\Users\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.3" />

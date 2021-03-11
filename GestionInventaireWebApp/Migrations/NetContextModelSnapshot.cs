@@ -237,7 +237,7 @@ namespace GestionInventaireWebApp.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("AdminId")
+                    b.Property<int>("AdminID")
                         .HasColumnType("int");
 
                     b.Property<int?>("CityId")
@@ -257,7 +257,7 @@ namespace GestionInventaireWebApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AdminId");
+                    b.HasIndex("AdminID");
 
                     b.HasIndex("CityId");
 
@@ -368,7 +368,10 @@ namespace GestionInventaireWebApp.Migrations
                 {
                     b.HasOne("GestionInventaireWebApp.Models.BDD.Admin", "Admin")
                         .WithMany("Users")
-                        .HasForeignKey("AdminId");
+                        .HasForeignKey("AdminID")
+                        .HasConstraintName("fk_users_admin")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("GestionInventaireWebApp.Models.BDD.City", "City")
                         .WithMany("Users")

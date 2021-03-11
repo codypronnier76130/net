@@ -17,5 +17,7 @@ namespace GestionInventaireWebApp.Models.BDD
         public ICollection<OrderArticle> OrderArticles { get; set; }
         public Stock Stock { get; set; }
         public Admin Admin { get; set; }
+
+        public int AdminID { get; set; }
     }
 }

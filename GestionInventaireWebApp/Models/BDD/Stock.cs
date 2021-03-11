@@ -13,6 +13,8 @@ namespace GestionInventaireWebApp.Models.BDD
         public ICollection<Article> Articles { get; set; }
 
         public ICollection<Order> Orders { get; set;}
-     
+
+        public int AdminID { get; set; }
+
     }
 }

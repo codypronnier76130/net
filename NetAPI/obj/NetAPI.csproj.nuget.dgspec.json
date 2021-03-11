@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {}
+    "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {
+    "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
         "projectName": "NetAPI",
-        "projectPath": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
-        "packagesPath": "C:\\Users\\Aspha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aspha\\Source\\Repos\\codypronnier76130\\net\\NetAPI\\obj\\",
+        "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\NetAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aspha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -71,6 +75,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
             }
           },
           "imports": [
@@ -91,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

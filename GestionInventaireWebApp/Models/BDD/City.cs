@@ -12,5 +12,7 @@ namespace GestionInventaireWebApp.Models.BDD
         public int Postcode { get; set; }
         public ICollection<User> Users { get; set; }
         public ICollection<Provider> Providers { get; set; }
+
+        public int AdminID { get; set; }
     }
 }
