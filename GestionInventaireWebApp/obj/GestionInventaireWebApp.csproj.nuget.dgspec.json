@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {}
+    "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
+    "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
         "projectName": "GestionInventaireWebApp",
-        "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
+        "projectPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj",
+        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -85,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
