@@ -355,6 +355,23 @@ namespace GestionInventaireWinForms
             num2 = rand.Next(1, 32665);
             reference.Text = Convert.ToString(num2);
         }
+
+        private void btnopsconvert_Click(object sender, EventArgs e)
+        {
+
+            Double euro = Double.Parse(textBox2.Text);
+
+            if (cmbconvert.Text == "Dollar")
+            {
+                label18.Text = System.Convert.ToString((euro * US_Dollar));
+            }
+        }
+
+        private void btninvent_Click(object sender, EventArgs e)
+        {
+            Inventory Inventory = new Inventory();
+            Inventory.Show();
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -421,31 +438,9 @@ namespace GestionInventaireWinForms
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void dateorder_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnopsconvert_Click(object sender, EventArgs e)
-        {
-
-            Double euro = Double.Parse(textBox2.Text);
-
-            if (cmbconvert.Text =="Dollar")
-            {
-                label18.Text = System.Convert.ToString((euro * US_Dollar));
-            }
-        }
-
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            Inventory Inventory = new Inventory();
-            Inventory.Show();
         }
     }
 }

@@ -7705,19 +7705,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paulf\\.nuget\\packages\\": {}
+    "C:\\Users\\alexv\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\NetAPI.csproj",
+      "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
       "projectName": "NetAPI",
-      "projectPath": "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\NetAPI.csproj",
-      "packagesPath": "C:\\Users\\paulf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paulf\\Desktop\\net\\NetAPI\\obj\\",
+      "projectPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\NetAPI.csproj",
+      "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\NetAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\paulf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7731,8 +7735,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
-              "projectPath": "C:\\Users\\paulf\\Desktop\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj"
+            "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj": {
+              "projectPath": "C:\\Users\\alexv\\source\\repos\\codypronnier76130\\net\\GestionInventaireWebApp\\GestionInventaireWebApp.csproj"
             }
           }
         }
@@ -7798,7 +7802,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
